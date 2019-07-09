@@ -1,0 +1,35 @@
+{
+    "name": "socks5p",
+    "version": "0.1.0",
+    "description": "Fast, simple, light",
+    "homepage": "https://666.io",
+    "keywords": [
+        "socks",
+        "socks5",
+        "socks5p"
+    ],
+    "author": {
+        "name": "Daeren",
+        "email": "x@db.gg"
+    },
+    "bin": {
+        "socks5p-cli": "./bin/index.js"
+    },
+    "main": "./index",
+    "scripts": {
+        "test": "mocha --reporter spec"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/Daeren/socks5p.git"
+    },
+    "license": "MIT",
+    "engines": {
+        "node": ">=6.0.0"
+    },
+    "readme": "",
+    "readmeFilename": "readme.md",
+    "bugs": {
+        "url": "https://github.com/Daeren/socks5p/issues"
+    }
+}
